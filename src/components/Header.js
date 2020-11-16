@@ -21,7 +21,7 @@ export default class Header extends Component {
           icon={faHamburger}
           onClick={this.flipDropdown}
           data-testid="hamburger-button"
-        />
+        /> 
         {this.state.showDropdown ? (
           <div className="dropdown" data-testid="dropdown">
             Dropdown menu
@@ -31,3 +31,4 @@ export default class Header extends Component {
     )
   }
 }
+//if this.state.showDropdown is true then it will render the Dropdown menu, else nothing
